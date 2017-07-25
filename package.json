@@ -1,6 +1,6 @@
 {
   "name": "bizoru-datepicker",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Datepicker component for angular friendly with bootstrap",
   "main": "./src/datepicker/index.js",
   "typings": "./src/datepicker/index.d.ts",
