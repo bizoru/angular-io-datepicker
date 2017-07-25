@@ -1,20 +1,16 @@
-# angular-io-datePicker
+# bizoru-datepicker
 
-Customizable DatePicker component for Angular 2.
+Customizable DatePicker component for Angular 2/4.
 
 ## Motivation
 
-Existing DatePickers do not work as they should... So we have written another one 😏
+eugenesaenko made this but I wanted to make this bootstrap friendly
 
 ## Installation
 
 ````shell
-npm i angular-io-datepicker --save
+npm i bizoru-datepicker --save
 ````
-
-## Code Example
-
-#### [Demo](https://rd-dev-ukraine.github.io/angular-io-datepicker/)
 
 You'll need to add `DatePickerModule` and `OverlayModule` to your application module. There is has to be `FormsModule`. If you use Model-Driven Form you'll need to add `ReactiveFormModule` too.
 
@@ -38,7 +34,7 @@ export class AppModule {
 }
 ```
 
-##### Template-Driven Form 
+##### Template-Driven Form
 
 Simply add `date-picker` element with options to your form:
 
@@ -95,4 +91,4 @@ Options can be passed to an element via html attributes:
 
 ## License
 
-This project is licensed under the MIT license. See the [LICENSE](https://github.com/rd-dev-ukraine/angular-io-datepicker/blob/master/LICENSE) file for more info.
+This project is licensed under the MIT license.
